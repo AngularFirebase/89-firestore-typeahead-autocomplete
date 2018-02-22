@@ -1,6 +1,6 @@
-# Episode XY
+# Episode 89
 
-Watch the [screencast]()
+Watch the [Firestore typeahead screencast](https://angularfirebase.com/lessons/)
 
 ## Usage
 

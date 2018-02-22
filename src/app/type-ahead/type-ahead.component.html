@@ -2,8 +2,6 @@
 
 <input (keyup)="onkeyup($event)" class="input" placeholder="search movies...">
 
-<h2>Results</h2>
-
-<ul *ngFor="let movie of results | async">
+<ul *ngFor="let movie of results | async" class="card">
   <li>{{ movie.title }}</li>
 </ul>

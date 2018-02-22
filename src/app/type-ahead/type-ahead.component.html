@@ -1,0 +1,9 @@
+<h1>Start Typing...</h1>
+
+<input (keyup)="onkeyup($event)" class="input" placeholder="search movies...">
+
+<h2>Results</h2>
+
+<ul *ngFor="let movie of results | async">
+  <li>{{ movie.title }}</li>
+</ul>
